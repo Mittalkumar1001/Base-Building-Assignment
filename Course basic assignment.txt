@@ -1,0 +1,12 @@
+Q1What is a HTML?
+ANS-HTML, or Hypertext Markup Language, is the standard markup language used to create and design documents on the World Wide Web. It forms the basic structure of web pages by using a system of elements or tags that define different parts of the content. Each HTML element represents a specific piece of content or a structural element on a web page.
+Q2)What is CSS?
+ANS-CSS, or Cascading Style Sheets, is a stylesheet language used to describe the presentation and layout of documents written in HTML and XHTML. In simpler terms, CSS is what gives style and visual appeal to the content structured by HTML. It allows web developers to control the look and feel of a website, defining how elements should be displayed on the screen.
+Q3)why did javaScript  come into the picture?
+ANS-JavaScript was introduced to address the need for interactivity and dynamic behavior on web pages. In the mid-1990s, the web was primarily static, meaning that once a page was loaded, it remained unchanged until the user navigated to a new page. This static nature limited the possibilities for creating more interactive and responsive user experiences.
+Q4)History of javaScript and EcmaScript?Explain in your words?
+ANS-JavaScript: JavaScript was created by Brendan Eich while he was working at Netscape in the early 1990s. It was originally developed under the name "Mocha" and later "LiveScript" before Netscape decided to partner with Sun Microsystems, resulting in the name change to JavaScript to leverage the popularity of Java. JavaScript was introduced in Netscape Navigator 2.0 in 1995 and became one of the first languages to be widely adopted for client-side web development.
+Initially, JavaScript was mainly used for simple tasks like form validation. Over time, as web development grew more complex, JavaScript evolved to become a versatile and powerful language, supporting dynamic content, asynchronous communication (AJAX), and eventually server-side development through platforms like Node.js.
+ECMAScript: Due to the rapid growth of JavaScript and the need for standardization, ECMA International (a standards organization) got involved. They created a standardized specification called ECMAScript, which provides the rules and guidelines for implementing JavaScript. The goal was to ensure consistency across different implementations and browsers.
+
+
