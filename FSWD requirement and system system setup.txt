@@ -1,0 +1,81 @@
+Q)List all the tool you used as a developer?
+
+1.Code Editors/IDEs:
+* Visual Studio Code
+* Sublime Text
+* Atom
+* IntelliJ IDEA
+* Eclipse
+2. Version Control:
+* Git
+* GitHub
+* GitLab
+* Bitbucket
+3. Command-Line Tools:
+* Terminal (Linux/macOS) or Command Prompt/Powershell (Windows)
+* Shell scripting tools (e.g., Bash)
+4. Web Browsers:
+* Google Chrome
+* Mozilla Firefox
+* Safari
+* Microsoft Edge
+5. Package Managers:
+* npm (Node Package Manager)
+* yarn (alternative to npm)
+* pip (Python)
+* Composer (PHP)
+6. Collaboration and Communication:
+* Slack
+* Microsoft Teams
+* Discord
+7. Database Management:
+* MySQL Workbench
+* pgAdmin (for PostgreSQL)
+* MongoDB Compass
+* SQLite Browser
+8. API Development:
+* Postman
+* Insomnia
+9. Graphic Design/Prototyping:
+* Adobe XD
+* Figma
+* Sketch
+10. Text and Code Organization:
+* Notion
+* Evernote
+* OneNote
+11. Project Management:
+* Jira
+* Trello
+* Asana
+12. Continuous Integration/Continuous Deployment (CI/CD):
+* Jenkins
+* Travis CI
+* CircleCI
+13. Containerization and Orchestration:
+* Docker
+* Kubernetes
+14. Virtualization:
+* VirtualBox
+* VMware
+15. Text Editors:
+* Vim
+* Emacs
+16. Testing:
+* JUnit (for Java)
+* Jest (for JavaScript)
+* Pytest (for Python)
+17. API Documentation:
+* Swagger
+* Postman Documentation
+18. Browser Developer Tools:
+* DevTools in Chrome, Firefox, etc.
+19. Continuous Monitoring and Logging:
+* Grafana
+* ELK Stack (Elasticsearch, Logstash, Kibana)
+20. Security:
+* OWASP ZAP (Zed Attack Proxy)
+* Burp Suite
+Q)What are the some of the features of pw skills online lab ?Explain how they are useful.
+ANS-There are various features of online lab . Those who have not pc they can code through online platform by using mobile.They have not good pc setup they can through online platform.
+
