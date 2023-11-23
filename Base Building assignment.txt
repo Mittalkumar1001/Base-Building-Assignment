@@ -1,0 +1,10 @@
+Q1)What is the  Internet? Explain in your own words.
+ANS-It allows people all over the world to share information and communicate with each other. Imagine it as a huge web where you can find and access different types of information, like websites, videos, and pictures.
+Q2)What is web browser? Explain in your words.
+ANS-A web browser is a software application that allows users to access the World Wide Web (www). It acts as an interface between the user and the information available on the web. When a user requests information, the browser retrieves the data from a web server and displays the webpage on the user's screen.
+Q3)  What is  Browser engine? Expalin in your own words.
+ANS- A browser engine, sometimes referred to as a rendering engine, is the core software component within a web browser that interprets and displays web content. Its primary function is to take the HTML, CSS, and JavaScript code from a website and turn it into the visual web pages that you see on your screen.
+Q4)What is static site ? Explain in your own words.
+ANS-A static site refers to a website that consists of fixed, unchanging files. The content on a static site remains the same for every visitor, and it doesn't change in real-time based on user interactions or inputs. These sites are typically written in HTML and may include CSS for styling and JavaScript for interactive elements, but the content doesn't dynamically update.
+Q5) what is a dynamic site? Explain in your own words.
+ANS-A dynamic site is a type of website that generates content on-the-fly in response to user interactions or requests. Unlike static sites, where the content remains the same for every visitor and doesn't change until the site is updated manually, dynamic sites use server-side technologies to create and serve content in real-time.
