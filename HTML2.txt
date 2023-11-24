@@ -1,0 +1,83 @@
+Q1)Explain the table and its properties?
+ANS- In HTML, the <table> element is used to create tables, which are a way to organize and display data in a structured grid format. Tables consist of rows (<tr>), which contain cells (<td>) or header cells (<th>). Here's an overview of the basic structure and properties of HTML tables:
+1. <table>:
+* The main container for the entire table.
+2. <thead>:
+* The table head section contains one or more <tr> elements that represent the header row(s) of the table.
+3. <tr>:
+* The table row element defines a row of cells in the table.
+4. <th>:
+* The table header cell element defines a header cell within a <tr>. Text within <th> is usually bold and centered by default.
+5. <tbody>:
+* The table body section contains one or more <tr> elements that represent the data rows of the table.
+Q2)Explain all media element and how they work?
+ANS- In HTML, the <audio> and <video> elements are used to embed media content, such as audio and video files, into a web page. These elements provide a native way to include multimedia content without the need for third-party plugins. Let's explore the <audio> and <video> elements and how they work.
+<audio> Element:
+The <audio> element is used to embed audio content into a web page. Here is a basic example:
+htmlCopy code
+<audio controls> <source src="audio.mp3" type="audio/mp3"> Your browser does not support the audio tag. </audio> 
+* The controls attribute adds playback controls (play, pause, volume, etc.) to the audio player.
+* The <source> element inside <audio> is used to specify the audio file source and its type. Multiple <source> elements can be used to provide alternative file formats for broader browser compatibility.
+<video> Element:
+The <video> element is used to embed video content into a web page. Here is a basic example:
+htmlCopy code
+<video width="640" height="360" controls> <source src="video.mp4" type="video/mp4"> Your browser does not support the video tag. </video> 
+* The width and height attributes set the dimensions of the video player.
+* The controls attribute adds playback controls to the video player.
+* Like <audio>, the <video> element can have multiple <source> elements for different video formats.
+Common Attributes for Both <audio> and <video> Elements:
+* autoplay: Automatically starts playback when the page loads.
+htmlCopy code
+<audio autoplay controls> <!-- Audio source(s) --> </audio> 
+* loop: Causes the media to play in a loop.
+htmlCopy code
+<video loop controls> <!-- Video source(s) --> </video>
+Q3)What is get and post in form?
+ANS- In HTML, the GET and POST methods are two common HTTP methods used when submitting forms. These methods define how the data entered into a form is sent to the server for processing.
+GET Method:
+* Usage: The GET method is used to request data from a specified resource.
+* Data in URL: The form data is appended to the URL as query parameters. This makes it visible in the browser's address bar.
+* Length Limitation: There is a limitation on the amount of data that can be sent. URLs have a maximum length, and longer data might be truncated.
+* Caching: Form submissions using GET can be cached by the browser, and the data may be saved in the browser's history.
+Example:
+htmlCopy code
+<form action="/submit" method="GET"> <label for="username">Username:</label> <input type="text" id="username" name="username"> <input type="submit" value="Submit"> </form> 
+When the form is submitted, the URL might look like: http://example.com/submit?username=johndoe
+POST Method:
+* Usage: The POST method is used to submit data to be processed to a specified resource.
+* Data in Request Body: The form data is sent in the request body, not in the URL. This makes it more secure and suitable for sensitive or large amounts of data.
+* Length Limitation: There is generally no limitation on the amount of data that can be sent using POST.
+* Security: POST is considered more secure for sensitive data, as the data is not visible in the URL.
+Q4)List all the input types we have forms?
+ANS- HTML provides a variety of input types that can be used within forms to collect different types of user input. Here is a list of commonly used input types:
+1. Text Input:
+htmlCopy code
+<input type="text" name="username" placeholder="Enter your username"> 
+2. Password Input:
+htmlCopy code
+<input type="password" name="password" placeholder="Enter your password"> 
+3. Email Input:
+htmlCopy code
+<input type="email" name="email" placeholder="Enter your email"> 
+4. Number Input:
+htmlCopy code
+<input type="number" name="quantity" min="1" max="10" placeholder="Enter a number"> 
+5. Checkbox:
+htmlCopy code
+<input type="checkbox" name="subscribe" value="yes"> Subscribe to newsletter 
+6. Radio Button:
+htmlCopy code
+<input type="radio" name="gender" value="male"> Male <input type="radio" name="gender" value="female"> Female 
+7. Date Input:
+htmlCopy code
+<input type="date" name="dob"> 
+8. Time Input:
+htmlCopy code
+<input type="time" name="appointment"> 
+9. File Input:
+htmlCopy code
+<input type="file" name="fileUpload"> 
+10. Color Input:
+htmlCopy code
+<input type="color" name="color" value="#ff0000">
+
