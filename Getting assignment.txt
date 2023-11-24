@@ -1,0 +1,24 @@
+Q1)why do we start a programming language with hello world?
+ANS-Starting a programming language with a "Hello, World!" program is a tradition and a simple way to introduce beginners to the basic syntax and structure of a programming language. The "Hello, World!" program is typically a very basic program that outputs the phrase "Hello, World!" to the screen or console.
+
+Q2) how is the use of comments and how do you write comment in html?
+ANS-Comments in programming are used to include explanatory notes or annotations within the code. Comments are not executed by the computer; instead, they are meant for readers human to understand the code better. In HTML, comments can be used to provide information about the structure, purpose, or any other relevant details of the code.
+In HTML, comments are written using the <!-- and --> tags. Anything between these tags is considered a comment and is not rendered by the browser. Here's an example.
+Q3)	what are elements  , tag , attributes , and the difference between them?
+ANS-Element: Fundamental building block of HTML, consisting of a start tag, content, and an end tag. Examples include <p>, <h1>, <a>, etc.
+   Tag: Part of an HTML element that encloses the element and consists of the tag name enclosed in angle brackets. Tags come in pairs: start tag and end tag.
+Attribute: Additional information about HTML elements, included in the opening tag. Consists of a name and a value.
+In an HTML document, elements are used to structure the content, tags define how the content is displayed, and attributes provide additional information about the elements. Understanding these concepts is crucial for creating and understanding HTML code.
+Q4) Briefly explain what entities are?
+ANS-In HTML, entities are special codes or character references used to represent characters that have a specific meaning in HTML or characters that are difficult to represent directly. Entities are used to ensure that the browser displays the characters correctly, regardless of encoding or other factors.
+For example, the ampersand (&) has a special meaning in HTML, and if you want to display it as part of your text rather than as an HTML tag indicator, you use the entity &amp;. Similarly, the less-than sign (<) is represented as &lt;, and the greater-than sign (>) is represented as &gt;. These entities help prevent browsers from misinterpreting the characters.
+Here are a few examples of HTML entities:
+* &lt;: Less-than sign (<)
+* &gt;: Greater-than sign (>)
+* &amp;: Ampersand (&)
+* &quot;: Double quotation mark (")
+* &apos;: Single quotation mark (')
+* &nbsp;: Non-breaking space (a space that will not break into a new line)
+Using entities is especially important when working with characters that have special meanings in HTML, as it ensures proper rendering and avoids potential parsing issues.
+Top of Form
+
