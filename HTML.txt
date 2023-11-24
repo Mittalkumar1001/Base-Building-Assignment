@@ -1,0 +1,63 @@
+Q1)What are inline and block elements in html and the difference between them?Name few inline and block elements?
+ANS- Inline Elements:
+* Definition: Inline elements do not start on a new line and only take up as much width as necessary. They typically appear within the flow of the content, allowing other elements to sit beside them.
+* Examples: <span>, <a>, <strong>, <em>, <img>, <br>, <i>
+Block Elements:
+* Definition: Block elements start on a new line and take up the full width available, creating a "block" of content. They usually create a new "block" or section in the document structure.
+* Examples: <div>, <p>, <h1> to <h6>, <ul>, <ol>, <li>
+Differences between Inline and Block Elements:
+1. Layout:
+* Inline: Does not start on a new line, only takes up as much width as necessary.
+* Block: Starts on a new line, takes up the full width available.
+2. New Line:
+* Inline: Does not force a new line after the element.
+* Block: Forces a new line after the element.
+3. Width:
+* Inline: Takes up only as much width as necessary.
+* Block: Takes up the full width available.
+4. Height:
+* Inline: Height is determined by the content it contains.
+* Block: Height is determined by the content it contains or by specified height properties.
+5. Child Elements:
+* Inline: Can contain other inline elements and text.
+* Block: Can contain both inline and block elements, creating a structured layout.
+Q2) how to work with image in HTML and explain in detail <img/> tag important attributes. 
+ANS- Working with images in HTML is a common task, and the <img> tag is used to embed images in a web page. The <img> tag is an empty, self-closing tag, meaning it does not have a closing tag. Instead, it may include attributes that provide additional information about the image. 
+1. src (Source):
+* Description: Specifies the source URL (file path or URL) of the image.> 
+2. alt (Alternative Text):
+* Description: Provides alternative text for the image, which is displayed if the image cannot be loaded. Also used by screen readers for accessibility.
+3. width and height:
+* Description: Specifies the width and height of the image in pixels. These attributes help in controlling the size of the image on the web page.
+
+Q3)How to create a list in html?
+ANS- In HTML, you can create lists using three main types of list elements: ordered lists (<ol>), unordered lists (<ul>), and definition lists (<dl>). Each type of list has its own set of list items (<li>). Here's how you can create each type of list.
+Q4)How to link with the web page and navigation people to other site?
+ANS- n HTML, you can create hyperlinks to link web pages and navigate users to other websites using the <a> (anchor) element. Here's a basic example:
+<a href="https://www.example.com">Visit Example.com</a> 
+In this example:
+* <a> is the anchor element.
+* href is an attribute that specifies the URL (Uniform Resource Locator) of the page or resource you want to link to.
+Here are a few variations and additional features you might use:
+Linking to Another Page on the Same Website
+<a href="/about.html">About Us</a> 
+In this case, the URL is relative to the current website. The /about.html assumes that the "about.html" page is in the root directory of the current website.
+Linking to a Specific Section on a Page:
+<a href="#section-id">Go to Section</a> 
+If you have a specific section with an id attribute on the page, you can link directly to that section by appending #section-id to the URL.
+Opening Links in a New Tab or Window:
+<a href="https://www.example.com" target="_blank">Visit Example.com in a new tab</a> 
+The target="_blank" attribute opens the link in a new browser tab or window
+Linking to Email Addresses:
+<a href="mailto:info@example.com">
+The mailto: prefix in the href attribute is used to create a link that opens the user's default email client with the specified email address.
+Linking to Phone Numbers:
+<a href="tel:+123456789">Call Us</a> 
+The tel: prefix in the href attribute is used to create a link that initiates a phone call to the specified phone number.
+Adding Text or Images within Links:
+You can include not only text but also images or other HTML elements within the <a> element.
+<a href="https://www.example.com"> <img src="example-logo.png" alt="Example Logo"> </a> 
+These are just some of the ways you can create links in HTML. Hyperlinks are a fundamental aspect of web development, enabling navigation within a website or to external resources.
+Top of Form
+
+
