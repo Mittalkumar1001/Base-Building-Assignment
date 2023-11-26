@@ -1,0 +1,28 @@
+Q)Why is it called a pseudo class?
+Ans-The term "pseudo-class" in CSS refers to a class-like identifier that is used to define a special state or condition of an HTML element. The word "pseudo" means "not genuine" or "having a deceptive resemblance," and in the context of CSS, a pseudo-class represents a state or condition that is not explicitly part of the HTML markup but is rather based on user interaction or the element's position within the document.
+Q) what are gradient in class 
+Ans-Gradients in CSS are a way to smoothly transition between two or more colors. They allow you to create visually appealing backgrounds, borders, or text effects by blending colors seamlessly. Gradients are specified using the linear-gradient() or radial-gradient() functions in CSS.
+Q) what are the different transition in class
+Ans-Transition Duration (transition-duration):
+* Specifies the duration over which a transition should occur. It is expressed in seconds (s) or milliseconds (ms).
+/* Example: Transition over 0.5 seconds */
+transition-duration: 0.5s;
+Transition Property (transition-property):
+* Specifies the CSS property or properties to which the transition effect should be applied.
+/* Example: Transition for all properties */
+transition-property: all;
+
+/* Example: Transition for specific properties */
+transition-property: width, color, opacity;
+Transition Timing Function (transition-timing-function):
+* Specifies the speed curve of the transition effect. It defines how intermediate values are calculated.
+
+/* Example: Ease-in-out timing function */
+transition-timing-function: ease-in-out;
+
+/* Example: Linear timing function */
+transition-timing-function: linear;
+Transition Delay (transition-delay):
+* Specifies the delay before the transition effect starts. It is expressed in seconds (s) or milliseconds 
+/* Example: Delay the transition by 0.2 seconds */
+transition-delay: 0.2s;
