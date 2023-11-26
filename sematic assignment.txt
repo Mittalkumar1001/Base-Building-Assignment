@@ -44,3 +44,12 @@ ANS-Semantic tags in HTML provide meaning to the structure of a web page, making
 *         <li><a href="#">Contact</a></li>
 *     </ul>
 * </nav>
+Q3) List some use semmatic tag?
+* Accessibility:
+* Semantic tags enhance the accessibility of web pages for users with disabilities. Screen readers and other assistive technologies can better interpret and convey the meaning of content when semantic tags are used.
+* SEO (Search Engine Optimization):
+* Search engines use the structure of HTML documents to understand and index content. Semantic tags provide additional information about the purpose and hierarchy of content, which can positively impact search engine rankings.
+* Document Structure:
+* Semantic tags help to organize the structure of a document, making it more readable and maintainable. They provide a clear outline of the content, improving collaboration among developers.
+* Styling and Layout:
+* Semantic tags can be styled more easily than generic tags because they convey meaning about the content they enclose. This can simplify the styling process and make the code more consistent
