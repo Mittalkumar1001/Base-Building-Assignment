@@ -1,0 +1,87 @@
+Q) what is postion property in css and its type?
+Ans-The position property in CSS is used to specify the positioning method of an element within its containing element. The position property can take several values, each of which determines how the element will be positioned on the web page. Here are the main values for the position property:
+1. static (default):
+* Elements with position: static are positioned in the normal flow of the document, which means they will be displayed in the order they appear in the HTML source code.
+* The top, right, bottom, and left properties have no effect on statically positioned elements.
+
+.example {
+  position: static;
+}
+relative:
+* Elements with position: relative are positioned relative to their normal position in the document flow.
+* When using position: relative, you can then use the top, right, bottom, and left properties to offset the element from its normal position.
+.example {
+  position: relative;
+  top: 10px;
+  left: 20px;
+}
+1. absolute:
+* Elements with position: absolute are removed from the normal document flow and positioned relative to the nearest positioned ancestor (an ancestor that is not position: static) or the initial containing block if there is no such ancestor.
+* If there is no positioned ancestor, the element is positioned relative to the initial containing block (usually the viewport).
+.example {
+  position: absolute;
+  top: 50px;
+  left: 30px;
+}
+fixed:
+* Elements with position: fixed are removed from the normal document flow and are positioned relative to the browser window.
+* Even if the page is scrolled, a fixed-position element will remain in the same position on the screen.
+.example {
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+sticky:
+* Elements with position: sticky are a hybrid of relative and fixed positioning. The element is treated as relative positioned within its containing block until it crosses a specified point during scrolling, at which point it is treated as fixed.
+.example {
+  position: sticky;
+  top: 20px;
+}
+Q) how many types of positioning are there in css?
+Ans-There are five types of positioning in CSS, each determined by the position property. Here's a brief overview of each type:
+1. Static Positioning (position: static):
+* This is the default positioning for all elements.
+* Elements with static positioning are positioned in the normal flow of the document, and the top, right, bottom, and left properties have no effect on them.
+.example {
+  position: static;
+}
+Relative Positioning (position: relative):
+* Elements with relative positioning are positioned relative to their normal position in the document flow.
+* You can use the top, right, bottom, and left properties to offset the element from its normal position
+.example {
+  position: relative;
+  top: 10px;
+  left: 20px;
+}
+Absolute Positioning (position: absolute):
+* Elements with absolute positioning are removed from the normal document flow and positioned relative to the nearest positioned ancestor (an ancestor that is not position: static) or the initial containing block if there is no such ancestor.
+* If there is no positioned ancestor, the element is positioned relative to the initial containing block (usually the viewport).
+c
+.example {
+  position: absolute;
+  top: 50px;
+  left: 30px;
+}
+Q) z-index is a CSS property that controls the stacking order of positioned elements on a web page. It specifies the z-axis position of an element and determines whether it appears in front of or behind other elements. The z-index property is particularly useful when dealing with overlapping elements.
+Here's how it works:
+* Elements w.popup {
+*   position: absolute;
+*   z-index: 1000;
+* }
+* 
+* .overlay {
+*   position: fixed;
+*   z-index: 999;
+* }ith a higher z-index value are stacked in front of elements with lower z-index values.
+* If two elements have the same z-index, the one that comes later in the HTML source order will be stacked on top.
+Positioning in 3D Space:
+* While web pages are essentially 2D, the z-index property provides a way to simulate a third dimension. It's particularly useful when using CSS properties like position: absolute or position: relative to position elements
+* .layer1 {
+*   position: absolute;
+*   z-index: 2;
+* }
+* 
+* .layer2 {
+*   position: absolute;
+*   z-index: 1;
+* }
