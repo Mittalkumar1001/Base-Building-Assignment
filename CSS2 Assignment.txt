@@ -1,0 +1,35 @@
+Q1)	Why css selector used in html?
+Ans-CSS selectors are used in HTML to target and style specific elements or groups of elements on a webpage. They provide a way to apply styles selectively, allowing developers to control the presentation and layout of HTML content. Here are some key reasons why CSS selectors are used in HTML:
+1. Targeting Elements:
+* CSS selectors allow developers to target specific HTML elements or groups of elements. This enables them to apply styles only to the elements they want to modify, leaving other elements unaffected.
+2. Styling Consistency:
+* CSS selectors help maintain consistency in styling across a website. By applying styles to specific elements or classes, developers can ensure that similar elements throughout the site share a consistent look and feel.
+3. Responsive Design:
+* CSS selectors are crucial for creating responsive designs. With media queries and specific selectors, developers can apply different styles based on the screen size or device, ensuring a better user experience on various platforms.
+Q2)What are the different types of selector in css?
+Ans-CSS selectors are patterns used to select and style HTML elements. There are various types of selectors in CSS, each serving a specific purpose. Here's an overview of the most common types of CSS selectors:
+Universal Selector (*):
+* Selects all elements on a page.
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+Type Selector (Element Selector):
+* Selects all instances of a specified HTML element.
+p {
+    color: blue;
+}
+Class Selector (.):
+* Selects all elements with a specific class attribute.
+.highlight {
+    background-color: yellow;
+}
+ID Selector (#):
+* Selects a single element with a specific ID attribute.
+#header {
+    font-size: 24px;
+}
+
+
