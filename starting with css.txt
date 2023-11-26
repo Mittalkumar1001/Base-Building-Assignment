@@ -1,0 +1,24 @@
+Q)Whatt is CSS ?Why use it.
+Ans-SS, or Cascading Style Sheets, is a style sheet language used for describing the presentation of a document written in HTML or XML (including XML dialects such as SVG or XHTML). CSS describes how elements should be rendered on screen, on paper, in speech, or on other media. It allows web developers to control the layout, appearance, and formatting of multiple web pages all at once.
+Key features and uses of CSS include:
+1. Separation of Concerns:
+* CSS separates the structure (HTML) and presentation (CSS) of a web page. This separation makes it easier to maintain and update the design of a website without affecting its content or functionality. Changes to the design can be made globally by modifying the CSS, improving code organization.
+2. Styling HTML Elements:
+* CSS is used to style HTML elements, defining properties such as colors, fonts, spacing, borders, and positioning. This allows developers to create visually appealing and consistent designs across a website.
+3. Responsive Web Design:
+* With CSS, developers can create responsive designs that adapt to different screen sizes and devices. Media queries and flexible layout techniques enable websites to be accessible on desktops, tablets, and smartphones.
+4. Consistency:
+* CSS promotes consistency in the appearance of a website. By defining styles in a centralized manner, developers can ensure that elements like headings, paragraphs, and navigation bars have a consistent look and feel throughout the site.
+Q2)What are the different way to bring css in html?
+ANS-There are several ways to include CSS (Cascading Style Sheets) in HTML documents. Each method has its own advantages and use cases. Here are the common ways to bring CSS into HTML:
+1. Inline Styles:
+* Inline styles are applied directly within the HTML tags using the style attribute. This method is useful for styling a specific element.is a paragraph with inline styles.</p> 
+2. Internal/Embedded Styles:
+* Internal styles are defined within the HTML document using the <style> tag in the <head> section. This method is suitable for styling multiple elements on a single page.
+3. External Styles:
+* External styles involve placing the CSS code in a separate file (e.g., styles.css) and linking it to the HTML document using the <link> element in the <head> section. This method is recommended for maintaining consistent styles across multiple pages.
+4. Importing External Styles with @import:
+* CSS files can also be imported within another CSS file using the @import rule. This method is similar to using an external stylesheet, but it's included within another CSS file.
+Q3)What do you mean by specifity in css?
+ANS-In CSS, specificity is a set of rules that determine which styles are applied to an HTML element when multiple conflicting styles are defined. It helps the browser decide which style declarations should take precedence over others. Specificity is crucial for understanding how styles are applied and for resolving conflicts when different styles target the same element.
+
