@@ -1,0 +1,28 @@
+Q1) what are media queries and their use case?
+Ans-Media queries are a key component of responsive web design. They are used in CSS (Cascading Style Sheets) to apply different styles or layouts to a web page based on certain conditions, such as the characteristics of the device or the screen size. Media queries allow developers to create designs that adapt to various devices and screen sizes, providing a better user experience across different platforms.
+Q2) what is the difference between minimum width and maximum width in media queries in css?
+1. Ans-min-width:
+* Syntax: @media only screen and (min-width: value) { /* styles */ }
+* The styles within the media query will apply if the screen width is equal to or greater than the specified value.
+* Example: If you have @media only screen and (min-width: 600px), the enclosed styles will apply for screens with a width of 600 pixels or more.
+2. max-width:
+* Syntax: @media only screen and (max-width: value) { /* styles */ }
+* The styles within the media query will apply if the screen width is equal to or less than the specified value.
+* Example: If you have @media only screen and (max-width: 600px), the enclosed styles will apply for screens with a width of 600 pixels or less.
+
+Q) Explain float property and clear property in css?
+Ans-The float and clear properties in CSS are used for layout and positioning of elements. While the float property is used to specify how an element should be positioned within its container, the clear property is used to control the wrapping behavior of elements around a floated element.
+Float Property:
+The float property is used to specify whether an element should be floated to the left, right, or not at all. When an element is floated, it is taken out of the normal flow of the document and moved to the left or right until it touches the edge of its containing element or another floated element.
+* left: The element will be floated to the left.
+* right: The element will be floated to the right.
+* none (default): The element will not be floated, and it will be displayed in the normal flow.
+Floats are commonly used for creating multi-column layouts or for positioning elements beside each other.
+Clear Property:
+The clear property is used to control the behavior of elements concerning floated elements. It specifies on which side an element should not allow floating elements. This is often used to ensure that an element starts on a new line below any preceding floated elements.
+* both: The element will not allow floating elements on either side. It will be placed below any floated elements.
+* left: The element will not allow floating elements on the left side.
+* right: The element will not allow floating elements on the right side.
+* none (default): The element will allow floating elements on both sides.
+
+
